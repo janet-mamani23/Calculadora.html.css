@@ -26,6 +26,7 @@ h1{
     font-size: 2rem;
     text-align: right;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 .button{
     background-color: rgba(245, 245, 220, 0.925) ;
@@ -50,6 +51,7 @@ h1{
     background-color: red;
 }
 
+#borrar.button
 
 
 
