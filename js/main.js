@@ -17,7 +17,7 @@ numeros.forEach((numero) => {
         pantalla.innerHTML = numActual;
     }
 )})
-
+ 
 
 signos.forEach((signo) => {
     signo.addEventListener("click", () => {
