@@ -56,6 +56,6 @@ borrar_todo.addEventListener("click", ()=> {
 
 
 borrar_caracter.addEventListener("click", ()=> {
-    numActual=numActual.slice(0,-1);
-    pantalla.innerHTML= numActual;
+    numActual = numActual.slice(0,-1);
+    pantalla.innerHTML = numActual;
 })
