@@ -83,15 +83,3 @@ h1{
     background-color: rgb(226, 43, 150);/*color del boton cuando lo toca*/
 }
 
-#punto{
-    background-color: rgba(245, 245, 220, 0.925) ;
-    color: #151616;
-    border-radius: 1rem ; /*borde del boton*/
-    font-family: monospace;
-    font-size: xx-large;
-}
-#punto:hover {
-    background-color: rgb(226, 43, 150);/*color del boton cuando lo toca*/
-}
-
-
