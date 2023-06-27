@@ -23,7 +23,8 @@ signos.forEach((signo) => {
     signo.addEventListener("click", () => {
         numAnterior = numActual;
         numActual = "";
-        operacion = signo.innerHTML
+        operacion = signo.innerHTML;
+        pantalla.innerHTML = operacion
     })
 })
 
@@ -36,7 +37,7 @@ igual.addEventListener("click", ()=> {
             resultado = parseFloat(numAnterior) - parseFloat(numActual);
             break;
         case "*":
-            resultado = parseFloatt(numAnterior) * parseFloat(numActual);
+            resultado = parseFloat(numAnterior) * parseInt(numActual);
             break;
         case "/":
             resultado = parseFloat(numAnterior) / parseFloat(numActual);
