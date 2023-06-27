@@ -4,7 +4,6 @@ const signos = document.querySelectorAll(".signo");
 const igual = document.querySelector("#igual");
 const borrar_caracter = document.querySelector("#borrar_caracter");
 const borrar_todo = document.querySelector("#borrar_todo");
-//const punto = document.querySelector("#punto");
 
 let numActual= "";
 let numAnterior= "";
